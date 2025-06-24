@@ -62,4 +62,18 @@ nav{
       width: 90%;
     }
   }
+
+  .rating-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centra los labels horizontalmente */
+    margin-bottom: 20px; /* Espacio debajo de las estrellas */
+  }
   
+  .rating-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;         /* Opcional: que cada label ocupe todo el ancho */
+  }
